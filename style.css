@@ -33,3 +33,18 @@ nav a:hover{
 main{
     margin:20px;
 }
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+@media(max-width: 768px){
+    .container{
+        width: 720px;
+    }
+}
+@media(max-width: 480px){
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+}
